@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ObjectMap L=".ObjectMap">
+  <Attribute L=".Attribute">
+    <Name>.NextId</Name>
+    <Value>12</Value>
+  </Attribute>
+  <Attribute L=".Attribute">
+    <Name>.LastSharedId</Name>
+    <Value>-1</Value>
+  </Attribute>
+  <Attribute L=".Attribute">
+    <Name>.TopObjs</Name>
+    <Value L=".TopLevelIds">
+      <Id>0.vf74P7ch4Yp9PfmA0W3z9N</Id>
+    </Value>
+  </Attribute>
+  <Attribute L=".Attribute">
+    <Name>.MtoSet</Name>
+    <Value L=".ObjectMapSet">
+      <MTO L=".MTO">
+        <Id>0.vf74P7ch4Yp9PfmA0W3z9N</Id>
+        <Name>TEDEDYouTubeGoogleChrome</Name>
+        <SimpleName>TED-ED - YouTube - Google Chrome</SimpleName>
+        <Parent />
+        <TO>TopLevelSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>Chrome_WidgetWin_1</Class>
+        <Role>Window</Role>
+        <Proxy>TopLevelWindowProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>0</X>
+              <Y>0</Y>
+              <W>1382</W>
+              <H>784</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>TEDEDYouTubeGoogleChrome$Chrome$WidgetWin$1$290823073</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.processName</Key>
+          <Val L=".processName">
+            <ProcessName>chrome.exe</ProcessName>
+          </Val>
+          <Wt>100</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>TED-ED - YouTube - Google Chrome</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>TED-ED - YouTube - Google Chrome</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>1.vf74P7ch4Yp9PfmA0W3z9N</Id>
+        <Name>TEDEDYouTube</Name>
+        <SimpleName>TED-ED - YouTube</SimpleName>
+        <Parent>0.vf74P7ch4Yp9PfmA0W3z9N</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>Chrome_WidgetWin_0</Class>
+        <Role>Window</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>8</X>
+              <Y>69</Y>
+              <W>1366</W>
+              <H>662</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>TEDEDYouTube$Chrome$WidgetWin$0$2969511722</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>TED-ED - YouTube</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>TED-ED - YouTube</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>2.vf74P7ch4Yp9PfmA0W3z9N</Id>
+        <Name>Chrome_RenderWidgetHostHWND</Name>
+        <SimpleName>Chrome_RenderWidgetHostHWND</SimpleName>
+        <Parent>1.vf74P7ch4Yp9PfmA0W3z9N</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>Chrome_RenderWidgetHostHWND</Class>
+        <Role>Window</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>8</X>
+              <Y>69</Y>
+              <W>1366</W>
+              <H>638</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Chrome$RenderWidgetHostHWND$Chrome$RenderWidgetHostHWND$2873829409</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>3.vf74P7ch4Yp9PfmA0W3z9N</Id>
+        <Name>Chrome_RenderWidgetHostHWND</Name>
+        <SimpleName>Chrome_RenderWidgetHostHWND</SimpleName>
+        <Parent>1.vf74P7ch4Yp9PfmA0W3z9N</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>Chrome_RenderWidgetHostHWND</Class>
+        <Role>Window</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>8</X>
+              <Y>69</Y>
+              <W>1366</W>
+              <H>662</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Chrome$RenderWidgetHostHWND$Chrome$RenderWidgetHostHWND$3695974583</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>4.vf74P7ch4Yp9PfmA0W3z9N</Id>
+        <Name>Document</Name>
+        <SimpleName>Document</SimpleName>
+        <Parent>3.vf74P7ch4Yp9PfmA0W3z9N</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Document</Class>
+        <Role>Document</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Document$.Document$1564227582</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>5.vf74P7ch4Yp9PfmA0W3z9N</Id>
+        <Name>Vertical</Name>
+        <SimpleName>Vertical</SimpleName>
+        <Parent>1.vf74P7ch4Yp9PfmA0W3z9N</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Vertical$.Scrollbar$2581579457</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Vertical</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>6.vf74P7ch4Yp9PfmA0W3z9N</Id>
+        <Name>Horizontal</Name>
+        <SimpleName>Horizontal</SimpleName>
+        <Parent>1.vf74P7ch4Yp9PfmA0W3z9N</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Scrollbar</Class>
+        <Role>ScrollBar</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Horizontal$.Scrollbar$3622985792</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>1</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Horizontal</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>7.vf74P7ch4Yp9PfmA0W3z9N</Id>
+        <Name>Grip</Name>
+        <SimpleName>Grip</SimpleName>
+        <Parent>1.vf74P7ch4Yp9PfmA0W3z9N</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Grip</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Grip$.Grip$602043054</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>8.vf74P7ch4Yp9PfmA0W3z9N</Id>
+        <Name>httpsWwwYoutubeComPlaylistListPL2E1F56682B39C20EFeaturePlcp</Name>
+        <SimpleName>https://www.youtube.com/playlist?list=PL2E1F56682B39C20E&amp;feature=plcp</SimpleName>
+        <Parent>0.vf74P7ch4Yp9PfmA0W3z9N</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>Chrome_OmniboxView</Class>
+        <Role>Window</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>156</X>
+              <Y>38</Y>
+              <W>996</W>
+              <H>25</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>httpsWwwYoutubeComPlaylistListPL2E1F56682B39C20EFeaturePlcp$Chrome$OmniboxView$1283881230</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>Address</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Address</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>9.vf74P7ch4Yp9PfmA0W3z9N</Id>
+        <Name>Address</Name>
+        <SimpleName>Address</SimpleName>
+        <Parent>8.vf74P7ch4Yp9PfmA0W3z9N</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Text</Class>
+        <Role>Text</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>156</X>
+              <Y>38</Y>
+              <W>996</W>
+              <H>25</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Address$.Text$1502574827</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>Address</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>A.vf74P7ch4Yp9PfmA0W3z9N</Id>
+        <Name>System</Name>
+        <SimpleName>System</SimpleName>
+        <Parent>0.vf74P7ch4Yp9PfmA0W3z9N</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Menubar</Class>
+        <Role>MenuBar</Role>
+        <Proxy>MenubarProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#rectangle</Key>
+          <Val L=".VOMRectangles">
+            <vomIdMap L=".Hashtable">
+              <Key>0</Key>
+              <Val I="0" />
+            </vomIdMap>
+            <vomRect L=".Rect">
+              <X>8</X>
+              <Y>8</Y>
+              <W>21</W>
+              <H>21</H>
+            </vomRect>
+          </Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>System$.Menubar$1839535532</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.text</Key>
+          <Val L=".caption">
+            <Caption>System</Caption>
+          </Val>
+          <Wt>75</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val>System</Val>
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+      <MTO L=".MTO">
+        <Id>B.vf74P7ch4Yp9PfmA0W3z9N</Id>
+        <Name>Titlebar</Name>
+        <SimpleName>Titlebar</SimpleName>
+        <Parent>0.vf74P7ch4Yp9PfmA0W3z9N</Parent>
+        <TO>GuiSubitemTestObject</TO>
+        <Dom>Win</Dom>
+        <Class>.Titlebar</Class>
+        <Role>Win</Role>
+        <Proxy>GenericProxy</Proxy>
+        <Prop L=".MtoProp">
+          <Key>#crc</Key>
+          <Val>Titlebar$.Titlebar$1436988055</Val>
+          <Wt>0</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.classIndex</Key>
+          <Val L=".Index">
+            <Index>0</Index>
+          </Val>
+          <Wt>50</Wt>
+        </Prop>
+        <Prop L=".MtoProp">
+          <Key>.name</Key>
+          <Val T="null" />
+          <Wt>75</Wt>
+        </Prop>
+      </MTO>
+    </Value>
+  </Attribute>
+  <Attribute L=".Attribute">
+    <Name>.PropSet</Name>
+    <Value L=".MapPropertySet">
+      <MapProperty L=".MapProperty">
+        <Name>rt.html_table_mapping_policy</Name>
+        <Value>Original</Value>
+      </MapProperty>
+    </Value>
+  </Attribute>
+</ObjectMap>
