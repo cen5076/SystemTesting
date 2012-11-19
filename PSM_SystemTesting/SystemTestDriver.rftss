@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rational.test.ft.visualscript:RFTScript xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rational.test.ft.visualscript="http:///com/ibm/rational/test/ft/visualscript.ecore" name="SystemTestDriver" package="" userName="David" date="Nov 18, 2012" time="1:32:47 PM" sinceDate="2012/11/18" hostName="WinNT Version 6.1  Build 7601 (S)" keywordSteps="">
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM001_Login_Cancel&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM001_Login_Incorrect&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptConstant" name="DEFAULT_ARGS" elementType="ScriptConstant"/>
+    </argument>
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptConstant" name="DP_SHARE_CURRENT_RECORD" elementType="ScriptConstant"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM001_Login_Lockout&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptConstant" name="DEFAULT_ARGS" elementType="ScriptConstant"/>
+    </argument>
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptConstant" name="DP_SHARE_CURRENT_RECORD" elementType="ScriptConstant"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM001_Login_Sunny&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptConstant" name="DEFAULT_ARGS" elementType="ScriptConstant"/>
+    </argument>
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptConstant" name="DP_SHARE_CURRENT_RECORD" elementType="ScriptConstant"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM004_Schedule_Cancel&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM004_Schedule_Rainy&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptConstant" name="DEFAULT_ARGS" elementType="ScriptConstant"/>
+    </argument>
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptConstant" name="DP_SHARE_CURRENT_RECORD" elementType="ScriptConstant"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM004_Schedule_Sunny&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptConstant" name="DEFAULT_ARGS" elementType="ScriptConstant"/>
+    </argument>
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptConstant" name="DP_SHARE_CURRENT_RECORD" elementType="ScriptConstant"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM002_Logout_AfterAdd&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM004_Schedule_Duplicate&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM012_EditSchedule_Cancel&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM012_EditSchedule_Cancel2&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM012_EditSchedule_Rainy&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptConstant" name="DEFAULT_ARGS" elementType="ScriptConstant"/>
+    </argument>
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptConstant" name="DP_SHARE_CURRENT_RECORD" elementType="ScriptConstant"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM012_EditSchedule_RainyCourseID&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM012_EditSchedule_Sunny&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptConstant" name="DEFAULT_ARGS" elementType="ScriptConstant"/>
+    </argument>
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:ScriptConstant" name="DP_SHARE_CURRENT_RECORD" elementType="ScriptConstant"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM002_Logout_AfterEdit&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM001_Login_ClearDB&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+  </testElements>
+  <testElements xsi:type="com.ibm.rational.test.ft.visualscript:ScriptMethod" name="callScript" elementType="ScriptMethod">
+    <argument>
+      <testelement xsi:type="com.ibm.rational.test.ft.visualscript:Value" value="&quot;PSM001_Login_15MinWarning&quot;" elementType="Value" valueType="String" isValueDataDrivable="true"/>
+    </argument>
+  </testElements>
+</com.ibm.rational.test.ft.visualscript:RFTScript>

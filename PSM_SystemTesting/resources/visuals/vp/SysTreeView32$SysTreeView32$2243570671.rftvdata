@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VomData L=".VomData">
+  <vomtdatas L=".Vector">
+    <E L=".VomVpTestData">
+      <vomvptd>tree</vomvptd>
+      <vomvpnl>wpf.treeviewitem.datavp_treehierarchy</vomvpnl>
+      <vomvptdata L=".TestDataTree">
+        <Data L=".MaskedPropSet">
+          <MP L=".MProp">
+            <Prop>data</Prop>
+            <Val L=".TestDataTreeNodes">
+              <Node L=".TestDataTreeNode">
+                <Node>"dataReceived"</Node>
+                <Mask>False</Mask>
+              </Node>
+              <Node L=".TestDataTreeNode">
+                <Node>Add new expression</Node>
+                <Mask>False</Mask>
+              </Node>
+            </Val>
+            <Mask>False</Mask>
+          </MP>
+          <MP L=".MProp">
+            <Prop>ordered</Prop>
+            <Val Z="True" />
+            <Mask>True</Mask>
+          </MP>
+        </Data>
+      </vomvptdata>
+    </E>
+    <E L=".VomVpTestData">
+      <vomvptd>selected</vomvptd>
+      <vomvpnl>net.treeview.datavp_selected</vomvpnl>
+      <vomvptdata L=".TestDataTree">
+        <Data L=".MaskedPropSet">
+          <MP L=".MProp">
+            <Prop>data</Prop>
+            <Val L=".TestDataTreeNodes" />
+            <Mask>False</Mask>
+          </MP>
+          <MP L=".MProp">
+            <Prop>ordered</Prop>
+            <Val Z="True" />
+            <Mask>True</Mask>
+          </MP>
+        </Data>
+      </vomvptdata>
+    </E>
+  </vomtdatas>
+  <vompdatas L=".Hashtable" />
+</VomData>
