@@ -20,32 +20,50 @@ public class PSM001_Login_Incorrect extends PSM001_Login_IncorrectHelper
 {
 	/**
 	 * Script Name   : <b>PSM001_Login_Incorrect</b>
-	 * Generated     : <b>Nov 11, 2012 4:47:27 PM</b>
+	 * Generated     : <b>Nov 18, 2012 4:53:14 PM</b>
 	 * Description   : Functional Test Script
 	 * Original Host : WinNT Version 6.1  Build 7601 (S)
 	 * 
-	 * @since  2012/11/11
+	 * @since  2012/11/18
 	 * @author David
-	 * @datapool InvalidUsers
 	 */
 	public void testMain(Object[] args) 
 	{
-		startApp("psm");
+		/*startApp("psm");
+		// Data Driven Code inserted on Nov 18, 2012
 		
 		// Frame: PSM Login
-		username().click(atPoint(28,9));
-		psmLogin().inputChars(dpString("Username"));
-		password().click(atPoint(7,15));
-		psmLogin().inputChars(dpString("Password"));
-		login().click();
+		username().setText(dpString("Username 2"));
+		// Data Driven Code inserted on Nov 18, 2012
+		password().setText(dpString("Password 2"));
+		*/
 		
-		// Frame: System Message
-		incorrectUsernamePassword().performTest(IncorrectUsernamePassword_standardVP());
-		ok().click();
+		while(!dpDone()){
+			startApp("psm");
+			
+			// Frame: PSM Login
+			psmLogin().performTest(PSMLogin_stateVP(), 1.0, 10.0);
+			username().click(atPoint(36,8));
+			psmLogin().inputChars(dpString("Username"));
+			password().click(atPoint(103,11));
+			psmLogin().inputChars(dpString("Password"));
+			login().click();
+			
+			// Frame: System Message
+			systemMessage().waitForExistence(10.0, 0.5);
+			incorrectUsernamePassword().performTest(IncorrectUsernamePassword_standardVP());
+			String IncorrectUsernamePassword_text = 
+			   (String)incorrectUsernamePassword().getProperty("text");
+			ok().click();
+			
+			// Frame: PSM Login
+			psmLogin().waitForExistence(10.0, 0.5);
+			psmLogin(ANY,MAY_EXIT).click(atPoint(253,7));
+			//increment datapool
+			dpNext();
+		}
+	
 		
-		//exit to allow another iteration
-		// Frame: PSM Login
-		psmLogin(ANY,MAY_EXIT).maximize();
 	}
 }
 
