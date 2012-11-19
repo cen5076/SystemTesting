@@ -20,11 +20,11 @@ public class Common_Login extends Common_LoginHelper
 {
 	/**
 	 * Script Name   : <b>Common_Login</b>
-	 * Generated     : <b>Nov 11, 2012 2:37:29 PM</b>
+	 * Generated     : <b>Nov 18, 2012 12:48:32 PM</b>
 	 * Description   : Functional Test Script
 	 * Original Host : WinNT Version 6.1  Build 7601 (S)
 	 * 
-	 * @since  2012/11/11
+	 * @since  2012/11/18
 	 * @author David
 	 */
 	public void testMain(Object[] args) 
@@ -32,13 +32,16 @@ public class Common_Login extends Common_LoginHelper
 		startApp("psm");
 		
 		// Frame: PSM Login
-		username().click(atPoint(24,8));
+		username().click(atPoint(13,15));
 		psmLogin().inputKeys("cen5076{TAB}");
 		psmLogin().inputChars("cen5076");
+		psmLogin().performTest(PSMLogin_stateVP());
 		login().click();
 		
 		// Frame: PSM Main Menu
-		psmMainMenu().performTest(PSMMainMenu_OpenVP(), 1.0, 10.0);
+		psmMainMenu().performTest(PSMMainMenu_stateVP());
+		peterClarke().performTest(PeterClarke_standardVP());
+		String PeterClarke_text = (String)peterClarke().getProperty("text");
 	}
 }
 
