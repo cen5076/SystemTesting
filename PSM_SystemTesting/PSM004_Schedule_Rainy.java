@@ -29,11 +29,13 @@ public class PSM004_Schedule_Rainy extends PSM004_Schedule_RainyHelper
 	 */
 	public void testMain(Object[] args) 
 	{
-		//Valid Login
-		callScript("Common_Login");
+		
 		
 		//traverse entire data pool
 		while(!this.dpDone()){
+			//Valid Login
+			callScript("Common_Login");
+			
 			// Frame: PSM Main Menu
 			addClassSchedule().click();
 			
@@ -79,10 +81,12 @@ public class PSM004_Schedule_Rainy extends PSM004_Schedule_RainyHelper
 			scheduleSetup().performTest(ScheduleSetup_stateVP());
 			cancel().click();
 			
+			// Frame: PSM Main Menu
+			psmMainMenu(ANY,MAY_EXIT).close();
+			
 			this.dpNext();
 	}
-		// Frame: PSM Main Menu
-		psmMainMenu(ANY,MAY_EXIT).close();
+		
 	}
 }
 
