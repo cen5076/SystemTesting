@@ -41,6 +41,10 @@ public class PSM001_Login_Sunny extends PSM001_Login_SunnyHelper
 		
 		// Frame: PSM Main Menu
 		psmMainMenu().performTest(PSMMainMenu_stateVP());
+		
+		// Frame: PSM Main Menu
+		peterClarke().performTest(PeterClarke_standardVP(), 1.0, 10.0);
+		
 		psmMainMenu(ANY,MAY_EXIT).close();
 	}
 }
