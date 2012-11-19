@@ -20,11 +20,11 @@ import com.rational.test.ft.vp.IFtVerificationPoint;
 import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
 /**
  * Script Name   : <b>Common_Login</b><br>
- * Generated     : <b>2012/11/11 2:39:23 PM</b><br>
+ * Generated     : <b>2012/11/18 1:25:42 PM</b><br>
  * Description   : Helper class for script<br>
  * Original Host : Windows 7 x86 6.1 build 7601 Service Pack 1 <br>
  * 
- * @since  November 11, 2012
+ * @since  November 18, 2012
  * @author David
  */
 public abstract class Common_LoginHelper extends RationalTestScript
@@ -50,6 +50,31 @@ public abstract class Common_LoginHelper extends RationalTestScript
 	{
 		return new GuiTestObject(
                         getMappedTestObject("login"), anchor, flags);
+	}
+	
+	/**
+	 * PeterClarke: with default state.
+	 *		text : Peter Clarke
+	 * 		.class : javax.swing.JLabel
+	 * 		accessibleContext.accessibleName : Peter Clarke
+	 * 		.classIndex : 1
+	 */
+	protected GuiTestObject peterClarke() 
+	{
+		return new GuiTestObject(
+                        getMappedTestObject("peterClarke"));
+	}
+	/**
+	 * PeterClarke: with specific test context and state.
+	 *		text : Peter Clarke
+	 * 		.class : javax.swing.JLabel
+	 * 		accessibleContext.accessibleName : Peter Clarke
+	 * 		.classIndex : 1
+	 */
+	protected GuiTestObject peterClarke(TestObject anchor, long flags) 
+	{
+		return new GuiTestObject(
+                        getMappedTestObject("peterClarke"), anchor, flags);
 	}
 	
 	/**
@@ -126,15 +151,39 @@ public abstract class Common_LoginHelper extends RationalTestScript
 	}
 	
 	/**
-	 * Locate and return the verification point PSMMainMenu_Open object in the SUT.
+	 * Locate and return the verification point PeterClarke_standard object in the SUT.
 	 */
-	protected IFtVerificationPoint PSMMainMenu_OpenVP() 
+	protected IFtVerificationPoint PeterClarke_standardVP() 
 	{
-		return vp("PSMMainMenu_Open");
+		return vp("PeterClarke_standard");
 	}
-	protected IFtVerificationPoint PSMMainMenu_OpenVP(TestObject anchor)
+	protected IFtVerificationPoint PeterClarke_standardVP(TestObject anchor)
 	{
-		return vp("PSMMainMenu_Open", anchor);
+		return vp("PeterClarke_standard", anchor);
+	}
+	
+	/**
+	 * Locate and return the verification point PSMLogin_state object in the SUT.
+	 */
+	protected IFtVerificationPoint PSMLogin_stateVP() 
+	{
+		return vp("PSMLogin_state");
+	}
+	protected IFtVerificationPoint PSMLogin_stateVP(TestObject anchor)
+	{
+		return vp("PSMLogin_state", anchor);
+	}
+	
+	/**
+	 * Locate and return the verification point PSMMainMenu_state object in the SUT.
+	 */
+	protected IFtVerificationPoint PSMMainMenu_stateVP() 
+	{
+		return vp("PSMMainMenu_state");
+	}
+	protected IFtVerificationPoint PSMMainMenu_stateVP(TestObject anchor)
+	{
+		return vp("PSMMainMenu_state", anchor);
 	}
 	
 	

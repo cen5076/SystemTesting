@@ -20,11 +20,11 @@ import com.rational.test.ft.vp.IFtVerificationPoint;
 import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
 /**
  * Script Name   : <b>PSM001_Login_Sunny</b><br>
- * Generated     : <b>2012/11/11 3:20:46 PM</b><br>
+ * Generated     : <b>2012/11/18 6:43:35 PM</b><br>
  * Description   : Helper class for script<br>
  * Original Host : Windows 7 x86 6.1 build 7601 Service Pack 1 <br>
  * 
- * @since  November 11, 2012
+ * @since  November 18, 2012
  * @author David
  */
 public abstract class PSM001_Login_SunnyHelper extends RationalTestScript
@@ -73,6 +73,31 @@ public abstract class PSM001_Login_SunnyHelper extends RationalTestScript
 	{
 		return new TextGuiSubitemTestObject(
                         getMappedTestObject("password"), anchor, flags);
+	}
+	
+	/**
+	 * PeterClarke: with default state.
+	 *		text : Peter Clarke
+	 * 		.class : javax.swing.JLabel
+	 * 		accessibleContext.accessibleName : Peter Clarke
+	 * 		.classIndex : 1
+	 */
+	protected GuiTestObject peterClarke() 
+	{
+		return new GuiTestObject(
+                        getMappedTestObject("peterClarke"));
+	}
+	/**
+	 * PeterClarke: with specific test context and state.
+	 *		text : Peter Clarke
+	 * 		.class : javax.swing.JLabel
+	 * 		accessibleContext.accessibleName : Peter Clarke
+	 * 		.classIndex : 1
+	 */
+	protected GuiTestObject peterClarke(TestObject anchor, long flags) 
+	{
+		return new GuiTestObject(
+                        getMappedTestObject("peterClarke"), anchor, flags);
 	}
 	
 	/**
@@ -146,6 +171,18 @@ public abstract class PSM001_Login_SunnyHelper extends RationalTestScript
 	{
 		return new TextGuiSubitemTestObject(
                         getMappedTestObject("username"), anchor, flags);
+	}
+	
+	/**
+	 * Locate and return the verification point PeterClarke_standard object in the SUT.
+	 */
+	protected IFtVerificationPoint PeterClarke_standardVP() 
+	{
+		return vp("PeterClarke_standard");
+	}
+	protected IFtVerificationPoint PeterClarke_standardVP(TestObject anchor)
+	{
+		return vp("PeterClarke_standard", anchor);
 	}
 	
 	/**

@@ -20,11 +20,11 @@ import com.rational.test.ft.vp.IFtVerificationPoint;
 import com.ibm.rational.test.ft.object.interfaces.sapwebportal.*;
 /**
  * Script Name   : <b>PSM001_Login_Incorrect</b><br>
- * Generated     : <b>2012/11/11 4:48:15 PM</b><br>
+ * Generated     : <b>2012/11/18 5:10:27 PM</b><br>
  * Description   : Helper class for script<br>
  * Original Host : Windows 7 x86 6.1 build 7601 Service Pack 1 <br>
  * 
- * @since  November 11, 2012
+ * @since  November 18, 2012
  * @author David
  */
 public abstract class PSM001_Login_IncorrectHelper extends RationalTestScript
@@ -153,6 +153,31 @@ public abstract class PSM001_Login_IncorrectHelper extends RationalTestScript
 	}
 	
 	/**
+	 * SystemMessage: with default state.
+	 *		.captionText : System Message
+	 * 		.class : Interface.Messages
+	 * 		accessibleContext.accessibleName : System Message
+	 * 		.processName : java.exe
+	 */
+	protected TopLevelTestObject systemMessage() 
+	{
+		return new TopLevelTestObject(
+                        getMappedTestObject("systemMessage"));
+	}
+	/**
+	 * SystemMessage: with specific test context and state.
+	 *		.captionText : System Message
+	 * 		.class : Interface.Messages
+	 * 		accessibleContext.accessibleName : System Message
+	 * 		.processName : java.exe
+	 */
+	protected TopLevelTestObject systemMessage(TestObject anchor, long flags) 
+	{
+		return new TopLevelTestObject(
+                        getMappedTestObject("systemMessage"), anchor, flags);
+	}
+	
+	/**
 	 * Username: with default state.
 	 *		.class : javax.swing.JTextField
 	 * 		.priorLabel : Username:
@@ -185,6 +210,18 @@ public abstract class PSM001_Login_IncorrectHelper extends RationalTestScript
 	protected IFtVerificationPoint IncorrectUsernamePassword_standardVP(TestObject anchor)
 	{
 		return vp("IncorrectUsernamePassword_standard", anchor);
+	}
+	
+	/**
+	 * Locate and return the verification point PSMLogin_state object in the SUT.
+	 */
+	protected IFtVerificationPoint PSMLogin_stateVP() 
+	{
+		return vp("PSMLogin_state");
+	}
+	protected IFtVerificationPoint PSMLogin_stateVP(TestObject anchor)
+	{
+		return vp("PSMLogin_state", anchor);
 	}
 	
 	
