@@ -32,7 +32,7 @@ public class PSM001_Login_Lockout extends PSM001_Login_LockoutHelper
 		startApp("psm");
 		
 		//Third Attempt locks out
-		for(int i=0;i<=3;i++){
+		for(int i=0;i<3;i++){
 			
 			// Frame: PSM Login
 			username().click(atPoint(86,7));
@@ -45,7 +45,7 @@ public class PSM001_Login_Lockout extends PSM001_Login_LockoutHelper
 			incorrectUsernamePassword().performTest(IncorrectUsernamePassword_standardVP());
 			ok().click();
 		
-			if(i != 3){
+			if(i < 2){
 			// Frame: PSM Login
 			psmLogin().performTest(PSMLogin_stateVP());
 			}
